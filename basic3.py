@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class Car:
     def __init__(self):
         self.Brand = "TATA"
@@ -16,3 +17,12 @@ print(c.model)
 c.on()
 c.move()
 c.off()
+=======
+class Car:
+    def __init__(self):
+        self.Brand = "TATA"
+        self.color = "White"
+        self.model = 2019
+    def on(self):
+        print
+>>>>>>> 92caa61d8cb86d497db317e80a70344d5467d8b0

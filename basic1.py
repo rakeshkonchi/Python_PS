@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # class student:
 #     def __init__(self):
 #         self.name = "Rakesh"
@@ -78,3 +79,17 @@
 # else:
 #     print("invalid input")
 
+=======
+class student:
+    def __init__(self):
+        self.name = "Rakesh"
+        self.age = 22
+        self.usn = 420
+    def study(self):
+        print("Rakesh is not studying")
+s1 = student()
+print(s1.name)
+print(s1.age)
+print(s1.usn)
+s1.study()
+>>>>>>> 92caa61d8cb86d497db317e80a70344d5467d8b0
