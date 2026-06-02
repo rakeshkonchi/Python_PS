@@ -1,9 +1,9 @@
 #pgm using private var
-# class Book:
-#     def __init__(self,p):
-#         self.__page=p # private var
-# B=Book(25)
-# print(B.__page)
+class Book:
+    def __init__(self,p):
+        self.__page=p # private var
+B=Book(25)
+print(B.__page)
 
 class Book:
     def __init__(self,p):

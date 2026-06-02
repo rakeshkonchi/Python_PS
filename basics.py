@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 class Fan:
     def __init__(self):
         self.brand = "usha"
@@ -21,7 +20,7 @@ print(f1.blades)
 f1.on()
 f1.rotate()
 f1.off()
-=======
+
 class Fan:
     def __init__(self):
         self.brand = "usha"
@@ -44,4 +43,3 @@ print(f1.blades)
 f1.on()
 f1.rotate()
 f1.off()
->>>>>>> 92caa61d8cb86d497db317e80a70344d5467d8b0

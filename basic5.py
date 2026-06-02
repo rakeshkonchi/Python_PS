@@ -1,11 +1,11 @@
-# class User:
-#     def __init__(self,sid, sname):
-#         self.id = sid
-#         self.name = sname
-# U1 = User(1,"kohli")
-# U2 = User(2,"rahul")
-# print(U1.id)
-# print(U2.id)
+class User:
+    def __init__(self,sid, sname):
+        self.id = sid
+        self.name = sname
+U1 = User(1,"kohli")
+U2 = User(2,"rahul")
+print(U1.id)
+print(U2.id)
 
 brand = "Iqoo"
 class Phone:
